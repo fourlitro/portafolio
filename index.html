@@ -5,29 +5,328 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Alexis Suarez</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="css/reset.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&;family=Open+Sans:wght@300;400;700&;display=swap">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/exp.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
-     <!-- Sección del Menú  -->
-    <header class="head container">
-        <h1>Alexis Suarez</h1>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+        <header class="menu__header">
+            <h1 class="icon_name"><strong class="name_title"></strong>Alexis Suarez<strong class="name_title"></strong>
+            </h1>
 
-        <nav>
-            <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">contacto</a></li>
-            </ul>
-            <li class="menu__list__item__contato"><a href="#contacto">contacto</a></li>
-        </nav>
-    </header>
+            <nav class="header_nav">
+                <a class="headerPrincipal_nav_item header_item_desktop" href="#about">Sobre mi</a>
+                <a class="headerPrincipal_nav_item header_item_desktop" href="#skills">Skills</a>
+                <a class="headerPrincipal_nav_item header_item_desktop" href="#hobbies">Hobbies</a>
+                <a class="headerPrincipal_nav_item header_item_desktop" href="#formacion">Formacion</a>
+                <a class="headerPrincipal_nav_item header_item_desktop" href="#xp">Proyectos</a>
+                <address>
+                    <a class="headerPrincipal_nav_item item_email"
+                        href="#contacto">Contacto: elcuatrolitro@gmail.com</a>
+                </address>
+            </nav>
+        </header>
+    </section>
 
+    <!-- Sección del Header/Title/Hero -->
+    <section class="title" >
+        <div class="title__div">
+            <div>
+                <img class="title__profile" src="imgs/profile.png">
+            </div>
+            <div class="title__container">
+                <h5 class="title__intro">¡Hola! me llamo</h5>
+                <h1 class="title__name">Alexis Suarez</h1>
+                <h3 class="title__subsection">Soy un estudiante de la carrera de Ingeniería en sistemas de información
+                    de la Universidad de Sonora, estoy involucrado en el programa ONE-Oracle Next Education en Alura
+                    Latam, donde estoy expandiendo mis horizontes educativos</h3>
+                <ul class="title__network">
+                    <!-- Pon los enlaces de tus redes sociales favoritas -->
+                    <li class="title__network__item">
+                        <a href="https://github.com/fourlitro">
+                            <img src="imgs/icon_github.svg" class="title__logo">
+                            <p class="title__p">Github</p>
+                        </a>
+                    </li>
+
+                    <li class="title__network__item">
+                        <a href="https://www.linkedin.com/in/alexisuarez/">
+                            <img src="imgs/icon_linkedin.svg" class="title__logo">
+                            <p class="title__p">LinkedIn</p>
+                        </a>
+                    </li>
+
+                    <li class="title__network__item">
+                        <a href="https://www.instagram.com/cuatrolineitor/">
+                            <img src="imgs/icon_instagram.svg" class="title__logo">
+                            <p class="title__p">Instagram</p>
+                        </a>
+                    </li>
+
+                    <li class="title__network__item">
+                        <a href="https://1drv.ms/b/s!ApTrCAKviiPNgat7ckSq2OKWIn3-4A?e=fe7TIh">
+                            <img src="imgs/icon_documento.svg" class="title__logo">
+                            <p class="title__p">Curriculum</p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección sobre mi -->
+    <section class="about" id="about">
+        <div class="about__container">
+            <h3 class="about__title">Sobre mi</h3>
+            <p class="about__paragraph">Hola Bienvenido a mi portafolio :D tengo 22 y soy un estudiante de ultimos
+                semestres de mi carrera. Me siento muy entusiasmado con este nuevo mundo que se me abre y todas las
+                posibilidades que hay en el.</p>
+            <p class="about__paragraph">Soy una persona que aprende muy rápido cuando practica, Me es muy fácil seguir
+                instrucciones pero también tengo bastante iniciativa cuando me emociona algo, tambien alcanzo a ver
+                puntos ciegos o potenciales mejoras. Soy bastante observador, detallista y muy organizado, me gusta dar
+                mi máximo en las cosas y que mi trabajo hable bien de mi. Tengo facilidad para relacionarme y creo en el
+                diálogo directo y respetuoso como herramienta principal en cualquier equipo para llegar a un fin común
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+        <h3 class="skills__title">Skills</h3>
+        <div class="skills__line">
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="imgs/icon_html5.svg" class="skills__icon"></li>
+                    <li class="skills__name">HTML5</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="imgs/icon_js.svg" class="skills__icon"></li>
+                    <li class="skills__name">Javascript</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="imgs/icon_java.svg" class="skills__icon"></li>
+                    <li class="skills__name">Java</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="imgs/icon_python.svg" class="skills__icon"></li>
+                    <li class="skills__name">Python</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="imgs/icon_red.svg" class="skills__icon"> </li>
+                    <li class="skills__name">Redes</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="imgs/icon_css.svg" class="skills__icon"> </li>
+                    <li class="skills__name">CSS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h3 class="hobbies__title">Hobbies</h3>
+        <div class="hobbies__line">
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img src="imgs/icon_code.svg" class="hobbies__icon"> </li>
+                    <li class="hobbies__name">Programacion</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"><img src="imgs/icon_lectura.svg" class="hobbies__icon"></li>
+                    <li class="hobbies__name"> Leer</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img src="imgs/icon_videogames.svg" class="hobbies__icon"></li>
+                    <li class="hobbies__name">Videojuegos</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img src="imgs/icon_headphones.svg" class="hobbies__icon"></li>
+                    <li class="hobbies__name">Oir música</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"><img src="imgs/icon_baseball.svg" class="hobbies__icon"></li>
+                    <li class="hobbies__name">Baseball</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img src="imgs/icon_puzzles.svg" class="hobbies__icon"> </li>
+                    <li class="hobbies__name">Puzzles</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img src="imgs/icon_redes2.svg" class="hobbies__icon"> </li>
+                    <li class="hobbies__name">Redes</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <h2 class="academic__title">Formación académica</h2>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="imgs/unison_logo.png"></li>
+                    <li class="academic__courses__item__title">
+                        <h4>Ingenieria en sistemas de informacion</h4>
+                    </li>
+                    <li class="academic__courses__item__subtitle">
+                        <p>2019 - Actualidad</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="imgs/alura_logo.png"></li>
+                    <li class="academic__courses__item__title">
+                        <h4>Formación en Front-End</h4>
+                    </li>
+                    <li class="academic__courses__item__subtitle">
+                        <p>2019 - Alura</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience" id="xp">
+        <h2 class="experience__title__section">Experiencia Profesional</h2>
+        <div class="experiencie__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="imgs/desafioencriptador.png">
+            <div class="experience__info">
+                <h1 class="experience__title">Encriptador de texto</h1>
+                <h3 class="experience__text">Challenge Alura Codificador </h3>
+                <div class="experience__description">
+                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                    <span class="experience__repo">
+                        <a href="https://github.com/fourlitro/Desafio-Encriptador">
+                            <button class="experience__boton--repo">Repositório</button>
+                        </a>
+                    </span>
+                    <span class="experience__demo">
+                        <a href="https://fourlitro.github.io/Desafio-Encriptador/">
+                            <button class="experience__boton--demo">Ver demo</button>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="experiencie__box__volteado">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="imgs/juegoPlataformas.png">
+            <div class="experience__info">
+                <h1 class="experience__title">Juego de plataformas</h1>
+                <h3 class="experience__text">Proyecto final de la materia de Videojuegos</h3>
+                <div class="experience__description">
+                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                    <span class="experience__repo">
+                        <a href="https://github.com/fourlitro/PlatformGame-4lts">
+                            <button class="experience__boton--repo">Repositório</button>
+                        </a>
+                    </span>
+                    <span class="experience__demo">
+                        <a href="https://github.com/fourlitro/PlatformGame-4lts">
+                            <button class="experience__boton--demo">Ver demo</button>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="formcontacto" id="contacto">
+        <div class="formcontacto__contacto">
+            <div class="formcontacto--izq">
+                <img class="formcontacto__img" src="imgs/contacto.jpg">
+            </div>
+            <div class="formcontacto__text">
+                <h2 class="formcontacto__title">Contacto</h2>
+                <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
+                <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto con
+                    usted lo antes posible. </h3>
+                <form class="formcontacto__form" name="form" action="https://formsubmit.co/elcuatrolitro@gmail.com" method="POST">
+                    <input class="formcontacto__input" type="text" name="nombre" placeholder="Nombre" required>
+                    <input class="formcontacto__input" type="email" name="email" placeholder="E-mail" required>
+                    <input class="formcontacto__input" type="text" name="asunto" placeholder="Assunto">
+                    <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+                        placeholder="Mensaje"></textarea>
+                    <button type="submit" class="formcontacto__boton">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Footer -->
+
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <h6 class="footer__txt"> Desarrollado por Alexis Suarez</h6>
+            <h6 class="footer__txt"> || </h6>
+
+            <a href="https://www.linkedin.com/in/alexisuarez" class="footer__a"><img src="imgs/icon_linkedin.svg" class="footer__icon"></a>
+
+            <a href="https://github.com/MalditoPerroSuertudo"><img src="imgs/icon_github.svg" class="footer__icon"></a>
+        </div>
+    </footer>
 
 </body>
 
