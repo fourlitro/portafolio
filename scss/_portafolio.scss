@@ -3,12 +3,12 @@
     padding-left: 6rem;
     padding-right: 6rem;
     padding-bottom: 2rem;
-    background-color: var( --color-link);
+    background-color: var( --color-link2);
     
 }
 
 .portafolio__title__section {
-    color: var(--color-t2);
+    color: var(--color-t4);
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -45,6 +45,7 @@
 }
 
 .portafolio__info {
+    color: var(--color-font);
     padding: 1rem;
     transition: all 0.5s;
     text-align: center;
@@ -138,6 +139,7 @@
     
     .portafolio__box{
         flex-direction: column;
+        align-items: center;
     }
 
     .portafolio__box__volteado{
@@ -152,7 +154,6 @@
 
     .portafolio__info{
         text-align: left;
-        align-items: normal;
     }
 
     .portafolio__title{
@@ -193,12 +194,12 @@
 
     .portafolio__box{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .portafolio__box__volteado{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .portafolio__img {
@@ -208,7 +209,7 @@
     }
     
     .portafolio__info{
-        text-align: left;
+        text-align: center;
         align-items: normal;
     }
 
